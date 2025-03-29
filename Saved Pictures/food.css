@@ -1,0 +1,73 @@
+.food{
+    color:#fff;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.food img{
+    height: 250px;
+    width: 250px;
+}
+.food img:hover{
+    height: 255px;
+    width: 255px;
+ 
+}
+
+#order form .col2{
+    display: block;
+   
+    color:white;
+    gap:1.5rem;
+    padding:30px;
+    text-align: center;
+    
+}
+#order form .col3{
+    display: block;
+    
+    color:white;
+    gap:1.5rem;
+    padding:30px;
+    text-align: center;
+    
+}
+
+#order form .all{
+    display:inline-block;
+ 
+}
+
+
+#orderform{
+
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#order form .flex.box{
+    flex: 1 1 20rem;
+
+
+}
+#order form .flex.box p{
+    font-size: 2rem;
+    color: var(--white);
+    
+
+}
+#order form .flex.box .input{
+    width:100%;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+  
+    margin: 1rem 0;
+}
+#order h2{
+    color: white;
+    margin:0;
+    padding:30px;
+}

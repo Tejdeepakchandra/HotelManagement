@@ -1,0 +1,109 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  
+    color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:#333;
+}
+
+
+
+
+#radha {
+   
+    text-align: center;
+    color: white;
+}
+
+#radha h2 {
+    color:white;
+    font-size: 36px;
+    margin: 0;
+}
+#rooms h2,#booking h2,#food h2{
+    color: white;
+    margin:0;
+    padding:30px;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#radha :hover{
+    background-color:red;
+
+
+}
+
+.room {
+    color:white;
+    display: inline-block;
+    margin: 70px;
+    border:1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+.room img{
+    width:600px;
+    height:400px;
+}
+
+
+footer {                                                                                                                                                                                           
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#about{
+    color:white;
+    padding: 40px;
+
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+

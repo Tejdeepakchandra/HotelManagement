@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body style="background-image: url(hotelpic.jpg);   background-size:cover; ">
+    
+        <header>
+            <h1>Hotel Minera Grand</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#booking" >Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+        <section id="hero">
+            <h2>Welcome to Our Luxurious Hotel</h2>
+            <p>Experience a memorable stay with us</p>
+            <a href="#rooms" class="btn">View Rooms</a>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Hotel Minera Grand, where your comfort and relaxation are our top priorities. Our hotel offers a wide range of amenities and services to make your stay enjoyable.</p>
+        </section>
+        <section id="rooms">
+            <h2>Our Rooms</h2>
+            <div class="room">
+                <img src="hotel room.jpg" alt="Room 1">
+                <h3>Deluxe Room</h3>
+                <p> deluxe room with a stunning view of the city.</p>
+                <span>Rs.2999/- per night</span>
+            </div>
+            <div class="room">
+                <img src="hotel room 2.jpg" alt="Room 2">
+                <h3>Superior Suite</h3>
+                <p>Indulge in the luxury of our superior suite.</p>
+                <span>Rs.3499/- per night</span>
+            </div>
+           
+            <div class="room">
+                <img src="bigroom.jpg" alt="Room 3">
+                <h3>Big Room </h3>
+                <p>Larger room with all facilities and good ambients.</p>
+                <span>Rs.3999/- per night</span>
+            </div>
+               
+            <div class="room">
+                <img src="master room.jpg" alt="Room 4">
+                <h3>Master Room </h3>
+                <p>Master room with stunning beach view.</p>
+                <span>Rs.4499/- per night</span>
+            </div>
+
+        </section><hr>
+        
+        <section id="food">
+            <h2>Food</h2>
+            <div class="food">
+                <img src="burger.jpg" alt="burger">
+                <h3>burger</h3>
+                <p>price:149/-</p>
+
+
+            </div>
+            <div class="food">
+                <img src="pizza.jpg" alt="burger">
+                <h3>pizza</h3>
+                <p>price:199/-</p>
+
+            </div>
+            <div class="food">
+                <img src="roti.jpg" alt="burger">
+                <h3>Roti</h3>
+                <p>price:20/-</p>
+
+            </div>
+            <div class="food">
+                <img src="curry.jpg" alt="burger">
+                <h3>panner curry</h3>
+                <p>price:120/-</p>
+
+            </div>
+            <div class="food">
+                <img src="curry 2.jpg" alt="burger">
+                <h3>corn curry</h3>
+                <p>price:120/-</p>
+
+            </div>
+            <div class="food">
+                <img src="pasta.jpg" alt="burger">
+                <h3>Pasta</h3>
+                <p>price:90/-</p>
+
+            </div>
+            <div class="food">
+                <img src="shakes.jpg" alt="burger">
+                <h3>shakes</h3>
+                <p>price:70/-</p>
+
+            </div>
+        </section><hr>
+        
+        <section id=booking class="booking">
+            <h2>Booking</h2>
+            <form action="" method="post">
+
+                <section class="row1">
+                    <div class="col1">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="enter your name" required>
+                    </div>
+                    <div class="col1">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"placeholder="enter your email" required> 
+                    </div>
+                    <div class="col1"> 
+                        <label for="number">Mobile Number:</label>
+                        <input type="number" id="number" name="number" placeholder="enter your number" required>
+                    </div>
+                </section>
+                <section class="row2">
+                    <div class="col2">
+                        <div class="box">
+                            <p>check in<span>*</span></p>
+                            <input type="date" name="check_in" class="box" required>
+                
+                        </div>
+                
+                        <div class="box">
+                            <p>check out<span>*</span></p>
+                            <input type="date" name="check_out" class="box" required>
+                        </div>
+                
+                        <div class="box">
+                            <p>rooms<span>*</span></p>
+                            <select name="rooms" class="input" required>
+                                <option value="1">1 Room</option>
+                                <option value="2">2 Rooms</option>
+                                <option value="3">3 Rooms</option>
+                                <option value="4">4 Rooms</option>
+                                <option value="5">5 Rooms</option>
+                            </select>
+                        </div>
+                        <div class="box">
+                            <p>select room</p>
+                            <select name="rooms" class="input" required>
+                                <option value="1">Deluxe room</option>
+                                <option value="2">Luxury room</option>
+                                <option value="3">Big room</option>
+                                <option value="4">Master room</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+                <section class="row3">
+                            
+                                <div class="col3">
+                                    <p>card name
+                                    </p>
+                                    <input type="name" name="name" placeholder="enter card name" required>
+                                </div >
+                                <div class="col3">
+                                    <p>cvv</p>
+                                    <input type="number" name="number"placeholder="enter cvv" required>
+                                </div>
+                                <div class="col3">
+                                    <p>pin</p>
+                                    <input type="number" name=" number"placeholder="enter pin" required>
+                                </div>
+                    <div>
+                        <input type="submit" value="Book Now" name="check" class="booking">
+                    </div>
+                </section>
+                
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to make a reservation, please don't hesitate to contact us.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="enter your name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"placeholder="enter your email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+                </form>
+        
+        </section>
+        <footer>
+            <p>&copy; 2023 Hotel Minera Grand</p>
+        </footer>
+    
+</body>
+</html>
